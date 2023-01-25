@@ -19,7 +19,7 @@ userlogin(data :any)
   return this.http.post<any>("https://vercel-api-three-pearl.vercel.app/userlogin",data)
 }
 addPost(data:any){
-  return this.http.post<any>("https://vercel-api-three-pearl.vercel.app/addPost",data)
+  return this.http.post<any>("https://anuj-api-amanyddv.vercel.app/addPost",data)
 
  
 }
